@@ -31,7 +31,7 @@
     request(`https://freegeoip.app/json/${ip}`, (error, response, body) => {
       if (error) {
         callback(error, null);
-        return;
+        return; 
       }
   
       if (response.statusCode !== 200) {
